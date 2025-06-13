@@ -12,7 +12,7 @@ import java.util.List;
 public class HelloWorldController {
 
     @GetMapping("/hello-world")
-    public String helloWorld(Model model){
+    public String helloWord(Model model){
         model.addAttribute("message","Hello World");
         return "hello-world";
     }
